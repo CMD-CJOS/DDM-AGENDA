@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+.gradle_home/
+/build/
+local.properties
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+.android_home/
+*.iml
+
+# Arquivos de Build e Capturas do Android
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+output-metadata.json
+
+# Segurança (NUNCA envie para o Git)
+*.jks
+*.keystore
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+*.log
